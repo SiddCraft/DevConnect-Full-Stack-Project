@@ -1,0 +1,21 @@
+.notifications-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .notification {
+    background: #f3f2ef;
+    padding: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .message {
+    background: #0073b1;
+    color: white;
+  }
+  
+  .job {
+    background: #ff9800;
+    color: white;
+  }
+  

@@ -1,0 +1,21 @@
+.top-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+  }
+  
+  .nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .nav-icon:hover {
+    color: #0073b1;
+  }
+  

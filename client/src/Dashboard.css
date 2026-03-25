@@ -1,0 +1,90 @@
+/* Dashboard.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.dashboard-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  color: #fff;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  text-align: center;
+}
+
+.dashboard-card h2 {
+  margin-bottom: 20px;
+}
+
+.dashboard-card p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.dashboard-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #ffffff20;
+  color: #fff;
+  font-size: 1em;
+}
+
+.dashboard-card input::placeholder {
+  color: #ddd;
+}
+
+.dashboard-card button {
+  padding: 12px 20px;
+  margin: 10px 8px 0 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.95em;
+  transition: 0.3s;
+}
+
+.dashboard-card button:hover {
+  opacity: 0.9;
+}
+
+button.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+button:nth-child(1) {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:nth-child(2) {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.loading-text {
+  font-size: 1.2em;
+  color: #ccc;
+}

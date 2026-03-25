@@ -1,0 +1,59 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f2ef;
+}
+
+/* ✅ New Post Box */
+.new-post {
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-post textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.new-post button {
+  background: #0073b1;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-post button:hover {
+  background: #005682;
+}
+
+/* ✅ Post Feed */
+.post-feed {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.post-item {
+  background: #eef3f8;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-item p {
+  font-size: 16px;
+  color: #333;
+}
+
+.post-item span {
+  font-size: 12px;
+  color: #888;
+}

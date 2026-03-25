@@ -1,0 +1,81 @@
+.jobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3f2ef;
+  }
+  
+  /* ✅ Buttons to navigate */
+  button {
+    background: #0073b1;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background: #005682;
+  }
+  
+  /* ✅ Post Job Section */
+  .post-job {
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-job h2 {
+    text-align: center;
+    color: #0073b1;
+  }
+  
+  .post-job input,
+  .post-job textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* ✅ Search Jobs Section */
+  .search-jobs {
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-jobs h2 {
+    text-align: center;
+    color: #0073b1;
+  }
+  
+  .search-jobs input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .job-listings {
+    margin-top: 20px;
+  }
+  
+  .job-item {
+    background: #eef3f8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .job-item h3 {
+    color: #0073b1;
+  }
+  
